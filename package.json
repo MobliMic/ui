@@ -1,7 +1,7 @@
 {
   "name": "@moblimic/ui",
-  "version": "1.0.0",
-  "description": "---\r name: Getting Started\r route: /\r ---",
+  "version": "1.0.1",
+  "description": "A basic UI kit for my personal sites",
   "main": "index.js",
   "scripts": {
     "docz:dev": "docz dev",
