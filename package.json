@@ -1,14 +1,15 @@
 {
-  "name": "ui",
+  "name": "@moblimic/ui",
   "version": "1.0.0",
-  "description": "",
+  "description": "---\r name: Getting Started\r route: /\r ---",
   "main": "index.js",
   "scripts": {
     "docz:dev": "docz dev",
     "docz:build": "docz build",
-    "docz:serve": "docz build && docz serve"
+    "docz:serve": "docz build && docz serve",
+    "publish": "npm publish --access public"
   },
-  "author": "",
+  "author": "Michael Craddock <michael@moblimic.com>",
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.13.1",
@@ -23,5 +24,13 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MobliMic/ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MobliMic/ui/issues"
+  },
+  "homepage": "https://github.com/MobliMic/ui#readme"
 }
