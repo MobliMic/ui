@@ -1,0 +1,20 @@
+---
+name: P
+route: /p
+---
+
+import { Playground, Props } from 'docz'
+import P from './'
+import GlobalStyles from '../../globalStyles/index.js'
+
+# Props
+
+<Props of={P} />
+
+## Basic usage
+
+<Playground>
+    <GlobalStyles />
+    <P>Paragraph text goes here</P>
+    <P noMargin={true}>a second line of text in a new Paragraph. This one has a double spaced margin for a finishing paragraph</P>
+</Playground>

@@ -35,4 +35,14 @@ Feel free to create a pull request for bugs and security updates. If you want to
 
 ### 1.0.0
 
-Staring to add the basic components im using
+Staring to add the basic components im using etc. This version has no use. Just configuring the package
+
+### 1.0.1
+
+Tweaking the configuration etc and the way I publish the package
+
+### 1.1.0
+
+The first version with working components for use in my projects.
+
+Set up docs folder for gh-pages

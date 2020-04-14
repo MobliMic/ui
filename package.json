@@ -1,26 +1,28 @@
 {
   "name": "@moblimic/ui",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A basic UI kit for my personal sites",
   "main": "index.js",
   "scripts": {
-    "docz:dev": "docz dev",
-    "docz:build": "docz build",
-    "docz:serve": "docz build && docz serve",
+    "docz:dev": "gatsby clean && docz dev",
+    "docz:build": "gatsby clean && docz build",
+    "docz:serve": "gatsby clean && docz build && docz serve",
     "publish": "npm publish --access public"
   },
   "author": "Michael Craddock <michael@moblimic.com>",
   "license": "MIT",
   "peerDependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "styled-components": "^5.1.0"
   },
   "dependencies": {
-    "prop-types": "^15.7.2",
     "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "docz": "^2.3.1",
+    "gatsby": "^2.20.20",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.1.0"
