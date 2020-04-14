@@ -9,11 +9,18 @@ import GlobalStyles from '../globalStyles/index.js'
 
 # Avatar
 
+### Todo
+
+add props to control size and positioning
+
 <Props of={Avatar} />
 
 ## Basic usage
 
 <Playground>
     <GlobalStyles />
-    <Avatar />
+    {/* To pad out the margin */}
+    <div style={{paddingBottom: '12rem'}}>
+        <Avatar />
+    </div>
 </Playground>
