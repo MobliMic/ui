@@ -46,3 +46,11 @@ Tweaking the configuration etc and the way I publish the package
 The first version with working components for use in my projects.
 
 Set up docs folder for gh-pages
+
+### 1.1.1
+
+Adding props to avatar
+
+# 1.1.2
+
+Fixing P tag

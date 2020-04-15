@@ -3,10 +3,10 @@ import PropType from "prop-types";
 
 const P = styled.p`
   margin: 0;
-  padding: 1rem;
+  padding: 1rem 0;
   font-size: 1.8rem;
 
-  ${props =>
+  ${(props) =>
     props.noMargin
       ? ``
       : `&:last-of-type {
@@ -16,11 +16,11 @@ const P = styled.p`
 `;
 
 P.defaultProps = {
-  noMargin: false
+  noMargin: false,
 };
 
 P.propTypes = {
-  noMargin: PropType.boolean
+  noMargin: PropType.boolean,
 };
 
 export default P;

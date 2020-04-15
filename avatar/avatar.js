@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import PropType from "prop-types";
 
-const Avatar = styled.div`
+const AvatarWrapper = styled.div`
   border-radius: 100%;
   border: 5px solid #ffffff;
   overflow: hidden;
@@ -17,8 +18,20 @@ const Image = styled.img`
   width: 100%;
 `;
 
-export default ({ size }) => (
-  <Avatar size={size}>
-    <Image alt="header" src="https://placekitten.com/800/800" />
-  </Avatar>
+const Avatar = ({ size, url, alt }) => (
+  <AvatarWrapper size={size}>
+    <Image alt={alt} src={url} />
+  </AvatarWrapper>
 );
+
+Avatar.propTypes = {
+  size: PropType.string,
+  url: PropType.string.isRequired,
+  alt: PropType.string.isRequired,
+};
+
+Avatar.defaultProps = {
+  size: "25rem",
+};
+
+export default Avatar;
