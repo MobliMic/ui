@@ -1,13 +1,12 @@
 {
   "name": "@moblimic/ui",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "A basic UI kit for my personal sites",
   "main": "index.js",
   "scripts": {
     "docz:dev": "gatsby clean && docz dev",
     "docz:build": "gatsby clean && docz build",
-    "docz:serve": "gatsby clean && docz build && docz serve",
-    "publish": "npm publish --access public"
+    "docz:serve": "gatsby clean && docz build && docz serve"
   },
   "author": "Michael Craddock <michael@moblimic.com>",
   "license": "MIT",

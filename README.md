@@ -9,6 +9,20 @@ I will be providing no maintenance or support beyond bugs that affect me or secu
 yarn add @moblimic/ui
 ```
 
+Temporary fix for NextJS
+
+```
+yarn add next-transpile-modules
+```
+
+In `next.config.js`
+
+```
+const withTM = require("next-transpile-modules")(["@moblimic/ui"]); // pass the modules you would like to see transpiled
+
+module.exports = withTM();
+```
+
 ### Global Styling and Reset
 
 This will add the reset styles and provide some basic look and feel i use to get started prototyping out a site.
@@ -24,6 +38,7 @@ import GlobalStyles from '@moblimic/ui/globalStyles'
 ## TODO
 
 - [ ] Move generic component styles from generic.js to typography components
+- [ ] Compiling step
 
 ## Contributing
 
@@ -54,3 +69,7 @@ Adding props to avatar
 # 1.1.2
 
 Fixing P tag
+
+# 1.2.0
+
+Adding loader and a components

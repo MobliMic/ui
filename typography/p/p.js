@@ -20,7 +20,7 @@ P.defaultProps = {
 };
 
 P.propTypes = {
-  noMargin: PropType.boolean,
+  noMargin: PropType.bool,
 };
 
 export default P;

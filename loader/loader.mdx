@@ -1,0 +1,19 @@
+---
+name: Loader
+route: /loader
+---
+
+import { Playground, Props } from 'docz'
+import Loader from './'
+import GlobalStyles from '../globalStyles/index.js'
+
+# Loader
+
+<Props of={Loader} />
+
+## Basic usage
+
+<Playground>
+    <GlobalStyles />
+    <Loader message='Loading message' options={{ duration: 3, iteration: 'infinite'}} />
+</Playground>
